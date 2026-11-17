@@ -12,6 +12,6 @@ Sunucu formunda **Kayıtlı parolayı değiştir** seçeneğini açıp parolayı
 
 ## Güncellemeler
 
-Termusta açıldığında ve açık kaldığı sürece saatte bir GitHub Releases’ı denetler. Elle denetlemek için **Termusta → Güncellemeleri Denetle…** menüsünü kullan. Yeni sürüm bulunduğunda üst çubuktaki **Güncellemeyi indir** düğmesi ZIP’i seçtiğin konuma indirir ve GitHub’ın yayımladığı SHA-256 değerini doğrular. Termusta’dan çıkıp Uygulamalar klasöründeki mevcut uygulamayı ZIP’ten çıkan sürümle değiştir.
+Termusta açıldığında ve açık kaldığı sürece saatte bir GitHub Releases’ı denetler. Elle denetlemek için **Termusta → Güncellemeleri Denetle…** menüsünü kullan. Yeni sürüm varsa Termusta paketi indirir, SHA-256 değerini doğrular, kurar ve yeni sürümle yeniden açılır. Yeniden başlatıldığında açık SSH oturumları sonlanır.
 
 Paket yerel olarak imzalanır ve Apple noter onayı içermez.
