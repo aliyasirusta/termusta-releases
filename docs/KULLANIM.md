@@ -8,7 +8,7 @@
 
 ## SSH parolası
 
-Sunucu formunda **Kayıtlı parolayı değiştir** seçeneğini açıp parolayı gir. Parola `~/Library/Application Support/Termusta` altında, kullanıcı hesabına özel izinlerle şifresiz saklanır. SSH parola istediğinde sekmede **Kayıtlı parolayı gir** düğmesini kullan ve istemi doğrula. Parolayı kaldırmak için formdaki parola alanını boş kaydet. Kimlik doğrulamayı ve sunucu anahtarı denetimini macOS OpenSSH yürütür.
+Sunucu formunda **Kayıtlı parolayı değiştir** seçeneğini açıp parolayı gir. Parola `~/Library/Application Support/Termusta` altında, kullanıcı hesabına özel izinlerle şifresiz saklanır. Sonraki bağlantılarda Termusta, OpenSSH’nin parola istemine kayıtlı parolayı bir kez otomatik girer. Parola reddedilirse terminalde yeniden girebilirsin. Parolayı kaldırmak için formdaki parola alanını boş kaydet. Kimlik doğrulamayı ve sunucu anahtarı denetimini macOS OpenSSH yürütür.
 
 ## Güncellemeler
 
